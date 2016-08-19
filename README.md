@@ -10,9 +10,13 @@ https://auth0.com/blog/if-this-then-node-dot-js-extending-ifttt-with-webtask-dot
 ## TL;DR
 
 1) Clone the repo
+
 2) Register a https://webtask.io account
+
 3) Register a https://mlab.com account
+
 4) Create a new database @mlab.com and copy the connection string
+
 5)
 ```
 $ npm i -g wt-cli
@@ -20,6 +24,7 @@ $ wt init
 $ wt create pokemongo.js --secret=MONGO_URL=<mlab connection string> #(copy the url wt gives you)
 $ wt create pokemap.js --secret=MONGO_URL=<mlab connection string> #(copy this url also)
 ```
+
 6) Fire up [Postman](https://www.getpostman.com/) and grab this [collection](https://www.getpostman.com/collections/9b59afbea219d70f5df4), you can try my own server, but Start up postman and you should put your url's in each and try the links! :D
 
 And now, for the fun part:
