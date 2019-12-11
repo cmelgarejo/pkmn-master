@@ -295,7 +295,7 @@ module.exports = function(ctx, done) {
                 });
                 parallel(job_list, function(err) {
                     if (err) return done(err);
-                    done(null, 'Catched some Pokemon!');
+                    done(null, 'Catched some Pokémon!');
                 });
             });
         }
